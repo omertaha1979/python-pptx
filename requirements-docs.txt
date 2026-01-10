@@ -3,3 +3,4 @@ Jinja2==2.11.3
 MarkupSafe==0.23
 alabaster<0.7.14
 -e .
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
